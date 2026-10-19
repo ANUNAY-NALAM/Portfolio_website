@@ -2,7 +2,7 @@
   "name": "anunay-portfolio",
   "private": true,
   "scripts": {
-    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "install:all": "npm install --include=dev && npm install --prefix server && npm install --include=dev --prefix client",
     "dev": "concurrently -n server,client -c magenta,cyan \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
     "build": "npm run build --prefix client",
     "start": "npm run build && npm start --prefix server"
