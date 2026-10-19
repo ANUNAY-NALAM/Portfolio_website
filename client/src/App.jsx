@@ -107,7 +107,7 @@ export default function App() {
           ))}
           <span className="pill blue tag tilt-l">{c.role} 🧑‍💻</span>
           <h1>
-            <span className="hi">Hey there! <span className="wave">👋</span> I'm</span>
+            <span className="hi">Hi there! <span className="wave">👋</span> I'm</span>
             {c.name}
           </h1>
           <p className="lead"><Rich text={c.tagline} /></p>

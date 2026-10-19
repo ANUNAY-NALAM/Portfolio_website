@@ -5,7 +5,7 @@ export const content = {
   role: 'Software engineer',
   email: 'anunaynalam@gmail.com',
   tagline:
-    'Writes code by day. Moves pawns, shuttlecocks and *dinks* the rest of the time. Now filming all of it.',
+    "Hi, you're more than welcome here. Computer person by day. Moves pawns, shuttlecocks and *dinks* the rest of the time. Now filming all of it.",
   ticker: ['Chess 1900+', 'Badminton', 'Cricket', 'Pickleball', 'Travel', 'Stock research'],
   about: {
     label: 'quick bio',
